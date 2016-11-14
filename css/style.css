@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-image: url(../img/subaru.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: -130px;
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+}
+#topBar {
+  color: white;
+  padding: 10%;
+}
+#suitcase {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  filter: invert(100%);
+  width: 75px;
+}
+#companyName {
+  position: absolute;
+  left: 120px;
+  top: 65px;
+}
+#topRight {
+  position: absolute;
+  top: 65px;
+  right: 60px;
+}
+
+
+
+
+
+
+.heroHead {
+  display: inline-block;
+  width:75%;
+  font-size: 42px;
+  line-height: 2em;
+  color: white;
+}
+
+
+.navBuckets img {
+  width: 100px;
+}
