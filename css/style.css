@@ -14,7 +14,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  margin-top: -100px;
+  /*margin-top: -100px;*/
+  position: relative;
   font-family: helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
@@ -116,7 +117,59 @@ button {
 }
 .navBuckets {
   background-color: white;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
 }
-.navBuckets img {
-  width: 100px;
+#hike {
+  /*width: 90px;*/
+  /*-webkit-filter: grayscale(10%);*/
+  border: 3px solid grey;
+  width: 35%;
+  padding: 20px;
+  border-radius: 100px;
+}
+#surf {
+  /*width: 90px;*/
+  /*-webkit-filter: grayscale(10%);*/
+  border: 3px solid grey;
+  width: 35%;
+  padding: 20px;
+  border-radius: 100px;
+}
+/*.circleIcon {
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 30px;
+}*/
+.circle {
+    border-radius: 300px/300px;
+    border:solid 3px rgba(0,0,0,.5);
+    width: 35%;
+    padding: 0;
+}
+#bike {
+    width: 35%;
+    padding: 10px;
+}
+
+.bucket {
+  width: 33%;
+  padding: 15px;
+  display: inline-block;
+}
+
+.bucket2 {
+  width: 33%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+.bucket3 {
+  width: 33%;
+  padding: 15px;
+  float: right;
+  display: inline-block;
 }
