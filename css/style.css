@@ -1,61 +1,64 @@
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0px;
+  box-sizing: border-box;
 }
 body {
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
   background-image: url(../img/subaru.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  /*margin-top: -100px;*/
-  position: relative;
+  background-size: 2400px;
+  position: absolute;
+  background-position: 0 -450px;
   font-family: helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.5em;
-  text-align: center;
+  margin: 0;
 }
 #topBar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
   color: white;
-  padding: 10%;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-bottom: 50px;
 }
-#suitcase {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  filter: invert(100%);
+#suitcase img {
   width: 75px;
+  filter: invert(100%);
+  float: left;
+  margin-right: 20px;
 }
 #companyName {
-  position: absolute;
-  left: 120px;
-  top: 65px;
+  padding-top: 10px;
 }
 #topRight {
   position: absolute;
-  top: 65px;
-  right: 60px;
+  top: 55px;
+  right: 40px;
+  float: right;
 }
-button {
+.heroHead {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.heroHead button {
   margin-top: 200px;
   margin-bottom: 200px;
   padding: 20px 20px 20px 20px;
   border-radius: 15px;
   background-color: #a0c18a;
+  font-size: 18px
+  font-weight: bold;
 }
-.heroHead {
-  display: inline-block;
-  width:75%;
-  font-size: 36px;
-  line-height: 2em;
-  color: white;
-}
+
 .whiteBarEdge {
   position: relative;
   display: inline-block;
